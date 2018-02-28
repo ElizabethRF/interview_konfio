@@ -59,7 +59,7 @@ datos de conexión a la base de datos.</p>
 <p>Cualquier funcionalidad adicional. ¡Sorpréndenos!</p>
 </li>
 </ol>
-<p><img src="https://picasaweb.google.com/104179089510833063477/6527542240258151393#6527542243766128034" alt="enter image description here"><br>
+
 Entregables:<br>
 • DDL File (.sql o su equivalente)</p>
 <p>• Bonus: Subir el proyecto a tu cuenta personal de repo hosting (github, gitlab, etc.)</p>

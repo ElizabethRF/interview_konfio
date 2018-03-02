@@ -1,0 +1,30 @@
+Requisitos:
+Tener Instalado oracle xpress edition
+Tener instalado Excel
+
+
+
+Ejecutar los scripts en el siguiente orden:
+	\01_scripts\01_tablespace.sql
+	\01_scripts\02_tables_creation.sql
+	\01_scripts\03_procedure.sql
+	
+
+Cargar datos con
+	 \02_ctl\loaddata.bat
+
+Probar los resultados con 
+	\05_querys\consultas.sql
+	
+	
+	
+Resetear el ejercicio con
+	\01_scripts\99_reset.sql
+	
+	
+	
+Bonus se corre con 
+	\06_bonus_track\01_create_reportes.sql
+	\06_bonus_track\02_export_reports.sql
+	
+	y abriendo el archivo \06_bonus_track\reportebonus.xlsm y presionando el boton

@@ -1,0 +1,5 @@
+USER_="SYSTEM"
+PASS_="holamundo1"
+URL_="jdbc:oracle:thin:@localhost:1521/xe"
+CLASSPATH_="C:/R/EXAM/interview_konfio/conf/ojdbc6.jar"
+JAVAPATH_="C:/Program Files/Java/jre1.8.0_161"

@@ -1,0 +1,35 @@
+
+SQL*Loader: Release 11.2.0.2.0 - Production on Jue Mar 1 19:58:31 2018
+
+Copyright (c) 1982, 2009, Oracle and/or its affiliates.  All rights reserved.
+
+Control File:   cust.ctl
+Data File:      ..\files\CUSTOMER.csv
+  File processing option string: "STR x'0A'"
+  Bad File:     /C_0CUS.bad
+  Discard File: /C_0CUS.dsc 
+ (Allow 1 discards)
+
+Number to load: ALL
+Number to skip: 1
+Errors allowed: 0
+Bind array:     64 rows, maximum of 256000 bytes
+Continuation:    none specified
+Path used:      Conventional
+
+Table LOANS.CUSTOMER, loaded from every logical record.
+Insert option in effect for this table: INSERT
+TRAILING NULLCOLS option in effect
+
+   Column Name                  Position   Len  Term Encl Datatype
+------------------------------ ---------- ----- ---- ---- ---------------------
+ID                                  FIRST     *   ,       CHARACTER            
+FIRST_NAME                           NEXT     *   ,       CHARACTER            
+LAST_NAME                            NEXT     *   ,       CHARACTER            
+EMAIL                                NEXT     *   ,       CHARACTER            
+GENDER                               NEXT     *   ,       CHARACTER            
+DATE_OF_BIRTH                        NEXT     *   ,       DATE YYYY-MM-DD      
+COUNTRY                              NEXT     *   ,       CHARACTER            
+CREATED_DATE                         NEXT     *   ,       DATE YYYY-MM-DD      
+
+SQL*Loader-601: For INSERT option, table must be empty.  Error on table LOANS.CUSTOMER

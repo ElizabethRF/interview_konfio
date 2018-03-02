@@ -1,0 +1,24 @@
+OPTIONS (
+	SKIP=1,
+	ERRORS=0,
+	DIRECT=FALSE
+	)
+LOAD DATA
+INFILE "..\files\CUSTOMER.csv" "STR x'0A'"
+BADFILE "/C_0CUS.bad"
+DISCARDFILE "/C_0CUS.dsc"
+DISCARDMAX 1
+INTO TABLE LOANS.CUSTOMER
+FIELDS TERMINATED BY X'2C'
+TRAILING NULLCOLS
+(
+	id	DECIMAL EXTERNAL,
+	first_name	,
+	last_name	,
+	email	,
+	gender	,
+	date_of_birth	DATE "YYYY-MM-DD",
+	country	,
+	created_date	 DATE "YYYY-MM-DD"
+)
+  
